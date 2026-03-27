@@ -18,12 +18,12 @@ Config.whitelist = [
 // `defaultserver` specifies the server to use when the domain name in the
 // address bar is `Config.routes.client`.
 Config.defaultserver = {
-	id: 'petmodsdh',
-	host: 'api.petmodsdh.com',
-	port: 443,
-	httpport: 80,
-	altport: 80,
-	registered: true
+    id: 'dragonheaven',
+    host: 'localhost',
+    port: 8000,
+    httpport: 8000,
+    altport: 80,
+    registered: true
 };
 
 Config.roomsFirstOpenScript = function () {
@@ -36,8 +36,8 @@ Config.customcolors = {
 Config.version = "0.11.2";
 
 Config.routes = {
-	root: 'petmodsdh.com',
-	client: 'localhost',
+	root: 'api.petmodsdh.com',
+	client: 'petmodsdh.com',
 	dex: 'dex.pokemonshowdown.com',
 	replays: 'replay.pokemonshowdown.com',
 	users: 'pokemonshowdown.com/users',
